@@ -1,0 +1,56 @@
+
+footer {
+  background: linear-gradient(to left, #f46b45, #eea849);
+  height: 100px;
+  padding: 2.2em 0 1em 1em;
+  font-family: Arial, Verdana, Sans-Serif;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1em;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+h1, h2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.para_1 {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+img {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
